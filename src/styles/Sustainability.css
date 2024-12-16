@@ -1,0 +1,62 @@
+.sustainability-title {
+  background-image: url('imangenes/sostenibilidad.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 80px;
+  color: white; 
+  text-align: center;
+  font-size: 5em; 
+  border-radius: 10px;
+  margin-bottom: 40px; 
+}
+
+.sustainability-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px; 
+}
+
+.sustainability-image {
+  width: 100%;
+  max-width: 500px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.sustainability-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  padding: 10px;
+  border-left: 5px solid #e4a11b; 
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.sustainability-highlight {
+  background-color: #e4a11b;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px; 
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.sustainability-highlight h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sustainability-highlight p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

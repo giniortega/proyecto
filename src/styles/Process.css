@@ -1,0 +1,62 @@
+.process-title {
+  background-image: url('imangenes/proceso.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  padding: 100px;
+  color: white; 
+  text-align: center; 
+  font-size: 5rem; 
+  border-radius: 5px;
+}
+
+.process-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.process-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.process-card h3 {
+  margin-top: 20px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.process-card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6; 
+}
+
+.process-image {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .process-container {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+@media (max-width: 480px) {
+  .process-container {
+    grid-template-columns: 1fr; 
+  }
+}

@@ -1,0 +1,105 @@
+.about-title {
+  background-image: url('imangenes/calidad.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.about-images {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+
+.about-images {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.about-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 15px;
+  max-width: 300px; 
+  text-align: center; 
+  transition: transform 0.3s ease;
+}
+
+.about-item:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .about-item {
+    max-width: 100%; 
+  }
+}
+
+
+
+.about-footer-section {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about-footer-section h2 {
+  font-size: 2em;
+  color: #131010;
+  margin-bottom: 20px;
+}
+
+.about-footer-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-footer-section .footer-button {
+  background-color: #ffc107;
+  color: #131010;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-footer-section .footer-button:hover {
+  background-color: #e0a800; 
+}

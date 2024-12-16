@@ -1,0 +1,97 @@
+.contact-title {
+  background-image: url('imangenes/contactos.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.contact-columns {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-column {
+  flex: 1;
+  min-width: 300px; 
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.15);
+}
+
+.contact-column h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #222;
+  text-align: center;
+  border-bottom: 2px solid #ebd513;
+  padding-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ebd513;
+  box-shadow: 0 0 5px rgba(235, 213, 19, 0.5);
+}
+
+.contact-form textarea {
+  height: 100px; 
+  resize: vertical; 
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: #ebd513;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d1bb11;
+  transform: translateY(-2px);
+}
